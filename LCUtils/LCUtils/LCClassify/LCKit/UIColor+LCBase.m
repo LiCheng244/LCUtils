@@ -50,4 +50,16 @@
 }
 
 
+/// 根据 RGB 色值生成颜色 (无需 /255）
++ (UIColor *)lc_colorWithR:(CGFloat)red
+                         G:(CGFloat)green
+                         B:(CGFloat)blue {
+    
+    UIColor *color = [UIColor colorWithRed:red/255.0
+                                     green:green/255.0
+                                      blue:blue/255.0
+                                     alpha:1.0];
+    return color;
+}
+
 @end

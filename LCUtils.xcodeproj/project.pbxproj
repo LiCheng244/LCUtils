@@ -36,6 +36,9 @@
 		5ABA7E0221D480C000BF0B62 /* NSString+LCSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA7E0121D480C000BF0B62 /* NSString+LCSandBox.m */; };
 		5ABA7E0521D483B100BF0B62 /* NSDate+LCBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA7E0421D483B100BF0B62 /* NSDate+LCBase.m */; };
 		5ABA7E0821D49AE500BF0B62 /* LCJsonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA7E0721D49AE500BF0B62 /* LCJsonLog.m */; };
+		5ABA7E0B21D4A5CF00BF0B62 /* NSObject+LCBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA7E0A21D4A5CF00BF0B62 /* NSObject+LCBase.m */; };
+		5ABA7E0E21D4B16B00BF0B62 /* UILabel+LCInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA7E0D21D4B16B00BF0B62 /* UILabel+LCInit.m */; };
+		5ABA7E1121D4B20300BF0B62 /* UIImage+LCFillet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA7E1021D4B20300BF0B62 /* UIImage+LCFillet.m */; };
 		F3F4F19FEE84BF1763BCB1B0 /* Pods_LCUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7192EB513D48292738A9311F /* Pods_LCUtils.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +98,12 @@
 		5ABA7E0421D483B100BF0B62 /* NSDate+LCBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LCBase.m"; sourceTree = "<group>"; };
 		5ABA7E0621D49AE500BF0B62 /* LCJsonLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCJsonLog.h; sourceTree = "<group>"; };
 		5ABA7E0721D49AE500BF0B62 /* LCJsonLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCJsonLog.m; sourceTree = "<group>"; };
+		5ABA7E0921D4A5CF00BF0B62 /* NSObject+LCBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LCBase.h"; sourceTree = "<group>"; };
+		5ABA7E0A21D4A5CF00BF0B62 /* NSObject+LCBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LCBase.m"; sourceTree = "<group>"; };
+		5ABA7E0C21D4B16B00BF0B62 /* UILabel+LCInit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LCInit.h"; sourceTree = "<group>"; };
+		5ABA7E0D21D4B16B00BF0B62 /* UILabel+LCInit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LCInit.m"; sourceTree = "<group>"; };
+		5ABA7E0F21D4B20300BF0B62 /* UIImage+LCFillet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+LCFillet.h"; sourceTree = "<group>"; };
+		5ABA7E1021D4B20300BF0B62 /* UIImage+LCFillet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LCFillet.m"; sourceTree = "<group>"; };
 		7192EB513D48292738A9311F /* Pods_LCUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EA58917E660238F1852A81 /* Pods-LCUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCUtils/Pods-LCUtils.debug.xcconfig"; sourceTree = "<group>"; };
 		EC6FB4FE6D90C6260149E162 /* Pods-LCUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCUtils/Pods-LCUtils.release.xcconfig"; sourceTree = "<group>"; };
@@ -184,12 +193,16 @@
 				5ABA7DEE21D475B900BF0B62 /* UIButton+LCBlock.m */,
 				5ABA7DF421D478E900BF0B62 /* UIImage+LCBase.h */,
 				5ABA7DF521D478E900BF0B62 /* UIImage+LCBase.m */,
+				5ABA7E0F21D4B20300BF0B62 /* UIImage+LCFillet.h */,
+				5ABA7E1021D4B20300BF0B62 /* UIImage+LCFillet.m */,
 				5ABA7DDD21D4720500BF0B62 /* UIColor+LCBase.h */,
 				5ABA7DDE21D4720500BF0B62 /* UIColor+LCBase.m */,
 				5ABA7DD421D470D500BF0B62 /* UIDevice+LCBase.h */,
 				5ABA7DD521D470D500BF0B62 /* UIDevice+LCBase.m */,
 				5ABA7DE421D4744600BF0B62 /* UILabel+LCSpace.h */,
 				5ABA7DE521D4744600BF0B62 /* UILabel+LCSpace.m */,
+				5ABA7E0C21D4B16B00BF0B62 /* UILabel+LCInit.h */,
+				5ABA7E0D21D4B16B00BF0B62 /* UILabel+LCInit.m */,
 				5ABA7DD721D4717700BF0B62 /* UICollectionView+LCRegister.h */,
 				5ABA7DD821D4717700BF0B62 /* UICollectionView+LCRegister.m */,
 				5ABA7DDA21D471C800BF0B62 /* UITableView+LCRegister.h */,
@@ -207,6 +220,8 @@
 			children = (
 				5ABA7E0621D49AE500BF0B62 /* LCJsonLog.h */,
 				5ABA7E0721D49AE500BF0B62 /* LCJsonLog.m */,
+				5ABA7E0921D4A5CF00BF0B62 /* NSObject+LCBase.h */,
+				5ABA7E0A21D4A5CF00BF0B62 /* NSObject+LCBase.m */,
 				5ABA7E0321D483B100BF0B62 /* NSDate+LCBase.h */,
 				5ABA7E0421D483B100BF0B62 /* NSDate+LCBase.m */,
 				5ABA7DC221D4637900BF0B62 /* NSString+LCBase.h */,
@@ -395,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ABA7DC721D463A100BF0B62 /* NSString+LCRegExp.m in Sources */,
+				5ABA7E0B21D4A5CF00BF0B62 /* NSObject+LCBase.m in Sources */,
 				5ABA7DE621D4744600BF0B62 /* UILabel+LCSpace.m in Sources */,
 				5ABA7DD621D470D500BF0B62 /* UIDevice+LCBase.m in Sources */,
 				5ABA7DEC21D4757D00BF0B62 /* UIView+Placeholder.m in Sources */,
@@ -403,6 +419,7 @@
 				5ABA7DDC21D471C800BF0B62 /* UITableView+LCRegister.m in Sources */,
 				5ABA7E0221D480C000BF0B62 /* NSString+LCSandBox.m in Sources */,
 				5ABA7DE221D4728700BF0B62 /* UIBarButtonItem+LCBase.m in Sources */,
+				5ABA7E1121D4B20300BF0B62 /* UIImage+LCFillet.m in Sources */,
 				5ABA7DAA21D462C000BF0B62 /* ViewController.m in Sources */,
 				5ABA7DD321D46EF000BF0B62 /* NSMutableDictionary+LCBase.m in Sources */,
 				5ABA7DC421D4637900BF0B62 /* NSString+LCBase.m in Sources */,
@@ -412,6 +429,7 @@
 				5ABA7DDF21D4720500BF0B62 /* UIColor+LCBase.m in Sources */,
 				5ABA7DCD21D463E400BF0B62 /* UIView+LCFrame.m in Sources */,
 				5ABA7DD921D4717700BF0B62 /* UICollectionView+LCRegister.m in Sources */,
+				5ABA7E0E21D4B16B00BF0B62 /* UILabel+LCInit.m in Sources */,
 				5ABA7DA721D462C000BF0B62 /* AppDelegate.m in Sources */,
 				5ABA7E0821D49AE500BF0B62 /* LCJsonLog.m in Sources */,
 				5ABA7DF621D478E900BF0B62 /* UIImage+LCBase.m in Sources */,
