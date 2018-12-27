@@ -59,22 +59,6 @@
 }
 
 
-/// 创建单色图片
-+ (UIImage *)lc_createImageWithColor:(UIColor *)color {
-    
-    CGRect rect = CGRectMake(0, 0, 1, 1);  //图片尺寸
-    
-    UIGraphicsBeginImageContext(rect.size);                 //填充画笔
-    CGContextRef context = UIGraphicsGetCurrentContext();   //根据所传颜色绘制
-    CGContextSetFillColorWithColor(context, color.CGColor);
-    CGContextFillRect(context, rect);                       //联系显示区域
-    UIImage * image = UIGraphicsGetImageFromCurrentImageContext(); // 得到图片信息
-    UIGraphicsEndImageContext(); //消除画笔
-    
-    return image;
-}
-
-
 /// 获取网络图片尺寸
 + (CGSize)lc_getImageSizeWithURL:(id)imageURL width:(CGFloat)mwidth {
     

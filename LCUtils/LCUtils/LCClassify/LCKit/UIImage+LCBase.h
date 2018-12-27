@@ -30,14 +30,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- 根据颜色创建图片
- 
- @param color       颜色
- */
-+ (UIImage *)lc_createImageWithColor:(UIColor *)color;
-
-
-/**
  通过 URL 和给定的宽度 获取网络图片大小
  
  @param URL         url
